@@ -1,0 +1,18 @@
+#BASIC_CLACULATOR
+a=int(input('Enter first number:'))
+c=input('Enter the operand:')
+b=int(input('Enter second number:'))
+
+if c=='+':
+	print(a+b)
+elif c=='-':
+    print(a-b)
+elif c=='*':
+	print(a*b)
+elif c=='/':
+	if a%b==0:
+	    print(int(a/b))
+	else:
+		print(a/b)
+else:
+	print('invalid input')
